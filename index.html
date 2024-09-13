@@ -1,0 +1,48 @@
+<!--
+  ______________________________________________________________________________________________
+ |                                                                                              |
+ |  Copyright 2024 ag-sanjjeev                                                                  |
+ |                                                                                              |
+ |  The source code is licensed under MIT-style License.                                        |
+ |  The usage, permission and condition are applicable to this source code as per license.      |
+ |  That can be found in LICENSE file or at https://opensource.org/licenses/MIT.                |
+ |______________________________________________________________________________________________|
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+	<!-- Custom Style -->
+	<link rel="stylesheet" type="text/css" href="./main.css" media="all">
+
+	<title>Sticky Note Application</title>
+</head>
+<body>
+
+	<main class="container">
+		
+		<div class="notes-header-form">
+			<input type="color" name="note-color-picker" id="note-color-picker" class="note-color-picker" value="#000000">
+			<button type="button" class="add-button" id="add-button">&plus;</button>
+		</div>
+
+		<div id="notes"></div>
+
+	</main>
+
+	<template id="note-template">
+		<div class="note">
+			<div class="note-header">
+				<input type="text" id="title" class="title" value="" placeholder="add your title" readonly>
+				<button type="button" class="close-button">&times;</button>
+			</div>
+			<div class="note-body" contenteditable></div>
+		</div>
+	</template>
+	<!-- Custom Script -->
+	<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
