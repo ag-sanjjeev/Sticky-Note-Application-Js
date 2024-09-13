@@ -49,7 +49,7 @@ This is a simple sticky note taking app, That is designed and developed using Ja
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. Make sure to follow the existing coding style and provide clear documentation for your changes.
 
-&#9733; Refer [Documentation](./documentation.md)
+&#9733; Refer [Documentation](DOCUMENTATION.md)
 
 ## &#9873; License
 
